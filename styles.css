@@ -1,0 +1,87 @@
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width:20%;
+    margin-left: auto;
+    padding: 2em;
+}
+
+ a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+nav img {
+    height: 20px;
+}
+
+main {
+    width: 50%;
+    margin: 4em auto;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 1em;
+    border-radius: 25px;
+    border: 1px solid gray;
+
+}
+
+.btns_container {
+    margin-top: 1em;
+
+}
+
+
+.btns_container button {
+    padding:  1em;
+    border: none;
+  
+}
+
+.languages {
+    margin-top: 1em;
+
+}
+
+.languages a {
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+}
+
+.foot-top {
+    padding: 0.2em;
+}
+
+.foot-bottom {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+.left a {
+    margin-right: 1em;
+
+}
+
+.right a {
+    margin-right: 1em;
+
+}
